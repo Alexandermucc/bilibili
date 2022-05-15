@@ -26,6 +26,7 @@ public class UserInfo {
 
     private Date updateTime;
 
+    private Boolean followed;  // 是否关注
 
     public Long getId() {
         return id;
@@ -97,6 +98,14 @@ public class UserInfo {
 
     public void setUpdateTime(Date updateTime) {
         this.updateTime = updateTime;
+    }
+
+    public Boolean getFollowed() {
+        return followed;
+    }
+
+    public void setFollowed(Boolean followed) {
+        this.followed = followed;
     }
 }
 
